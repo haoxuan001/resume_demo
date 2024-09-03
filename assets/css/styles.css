@@ -11,10 +11,10 @@
       Pink: hsl(356, 66%, 75%)
       Teal: hsl(174, 63%, 62%)
   */
-  --color: hsl(197, 46%, 13%);
-  --hue: 197;
-  --sat: 46%;
-  --lig: 13%;
+  --color: hsl(224, 26%, 49%);
+  --hue: 224;
+  --sat: 26%;
+  --lig: 49%;
   --first-color: hsl(var(--hue), var(--sat), var(--lig));
   --first-color-alt: hsl(var(--hue), var(--sat), 57%); /* -4% */
   --title-color: hsl(var(--hue), 12%, 15%);
@@ -507,16 +507,16 @@ body.dark-theme {
     padding-top: 4rem;
   }
   .profile__border {
-    width: 135px;
+    width: 140px;
     height: 135px;
     margin-bottom: 1rem;
   }
   .profile__perfil {
-    width: 120px;
+    width: 130px;
     height: 120px;
   }
   .profile__perfil img {
-    width: auto;
+    width: 140%;
     height: 100%;
   }
   .profile__profession {
